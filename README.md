@@ -2,7 +2,7 @@
 
 I look forward to meeting all of you!  I have a few stories to tell, a few thoughts to share, and I want to spend as much time as we can answering your questions.  I also want to have some fun with hardware along the way.  
 
-In preparation for this, before we meet, please try to complete the following three activities.  Do not stress about it if you are not able to complete these activities.  You have the option of working with someone else (assuming someone completes all three tasks!)
+In preparation for this, please try to complete the following three activities before we meet. 
 
 Click the triangle to the left of each item below to expand the section:
 
