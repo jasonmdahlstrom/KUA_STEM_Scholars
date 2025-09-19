@@ -96,7 +96,7 @@ When we meet, please bring your laptop (*fully charged*) so you can upload and r
 
 The other thing I would like to ask of you, before we meet, is a few sentences telling me something about your STEM interests... what inspires you in the field of STEM?  
 
-Please use my Dartmouth e-mail address, jason.m.dahlstrom@dartmouth.edu, and please include "KUA Stem Scholar" in the subject line so I am sure to read it before we meet.
+Please use my Dartmouth e-mail address, jason.m.dahlstrom@dartmouth.edu, and please include "KUA STEM Scholar" in the subject line so I am sure to read it before we meet.
 
 Thanks for your time ahead of our meeting, and again, I look forward to meeting you!
 
