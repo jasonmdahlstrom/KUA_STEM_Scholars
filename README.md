@@ -2,7 +2,9 @@
 
 I look forward to meeting all of you!  I have a few stories to tell, a few thoughts to share, and I want to spend as much time as we can answering your questions.  I also want to have some fun with hardware along the way.  
 
-In preparation for this, before we meet, please complete the following three activities if you are able to.  Do not stress about it if you are not able to.  We can sort it out when we meet or you can work with someone else.  Click the triangle to the left of each item below to expand the section:
+In preparation for this, before we meet, please try to complete the following three activities.  Do not stress about it if you are not able to complete these activities.  You have the option of working with someone else (assuming someone completes all three tasks!)
+
+Click the triangle to the left of each item below to expand the section:
 
 <details>
   <summary>Install the Arduino Integrated Development Environment ("IDE") before we meet:</summary>
