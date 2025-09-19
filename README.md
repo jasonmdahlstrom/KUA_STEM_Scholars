@@ -2,7 +2,7 @@
 
 I look forward to meeting all of you!  I have a few stories to tell, a few thoughts to share, and I want to spend as much time as we can answering your questions.  I also want to have some fun with hardware along the way.  
 
-In preparation for this, before we meet, please complete the following three activities (click the triangle to the left of the text to expand the section):
+In preparation for this, before we meet, please complete the following three activities if you are able to.  Do not stress about it if you are not able to.  We can sort it out when we meet or you can work with someone else.  Click the triangle to the left of each item below to expand the section:
 
 <details>
   <summary>Install the Arduino Integrated Development Environment ("IDE") before we meet:</summary>
@@ -98,7 +98,7 @@ The other thing I would like to ask of you, before we meet, is a few sentences t
 
 Please use my Dartmouth e-mail address, jason.m.dahlstrom@dartmouth.edu, and please include "KUA Stem Scholar" in the subject line so I am sure to read it before we meet.
 
-Thanks for your time ahead of our meeting, and again, I look forward to meeting you!
+Thanks for your time ahead of our seminar, and again, I look forward to meeting you!
 
 -Jason
 
