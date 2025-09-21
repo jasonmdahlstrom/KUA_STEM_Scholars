@@ -8,7 +8,7 @@ One of the key features that makes a microcontroller a "microcontroller" is the 
 
 ![MCU Architecture](images/ATmega328_Arch.jpg)
 
-Servo motors are controlled by a 50 Hz PWM signal.  Recall that the signal's period is 1 / frequency, so the period of the 50 Hz PWM signal is 20 ms (0.020 seconds).  If, during this period, the signal is high for 0.5 ms (0.005 seconds), the servo motor is rotated to its maximum counter-clockwise position.  If the signal is high for 2.5 ms (0.025 seconds), the servo motor is rotated to its maximum clockwise position.  By adjusting the high time of the PWM signal, one can control the position of the servo motor:
+Servo motors are controlled by a 50 Hz PWM signal.  Recall that the signal's period is 1 / frequency, so the period of the 50 Hz PWM signal is 20 ms (0.020 seconds).  If, during this period, the signal is high for 0.5 ms (0.0005 seconds), the servo motor is rotated to its maximum counter-clockwise position.  If the signal is high for 2.5 ms (0.0025 seconds), the servo motor is rotated to its maximum clockwise position.  By adjusting the high time of the PWM signal, one can control the position of the servo motor:
 
 ![Servo PWM Control](images/Servo_PWM.jpg)
 
