@@ -1,12 +1,12 @@
 # Build the LED Circuit
 
-In this experiment you will build the circuit with your computed resistor value and, if your design is correct, your LED will thank you for not burning it out with too much current!
+In this experiment you will build the LED circuit and, if your design is correct, your LED will thank you for not burning it out with too much current!
 
-We will use the Arduino Nano as our power supply.  The Arduino Nano has 30 external pins, many of which have multiple functions (depending on how you program it).  A couple of these pins are dedicated power supply pins for use with external circuit:
+We will use the Arduino Nano as our power supply.  The Arduino Nano has 30 external pins, many of which have multiple functions (depending on how you program it).  A couple of these pins are dedicated power supply pins for use with external circuits:
 
 ![Nano Pinout](images/Arduino_Nano_Pinout.jpg)
 
-You can connect circuit elements together on your breadboard by inserting wires or element (LED, resistor) leads into holes in the breadboard.  The holes in your breadboard are electrically connected as shown in the image below.  Specifically:
+You can connect circuit elements together on your breadboard by inserting wires or circuit elements (LEDs, resistors) into holes in the breadboard.  The holes in your breadboard are electrically connected as shown in the image below.  Specifically:
 * The vertical columns of 5 holes on the top half are connected together
 * The vertical columns of 5 holes on the bottom half are connected together (but they are not connected to the top half!)
 * The horizontal rows are connected together.
@@ -23,11 +23,11 @@ Here's how that maps to the schematic (updated for a 3.3V power supply):
 
 ![Schematic Step 1](images/Schematic_Step_1.jpg)
 
-Next, recall that the diode only allows current to flow in one direction... we have to insert it into the circuit in the correct orientation!  LEDs like the one in your hardware kit have different length leads on them to help get the orientation right:
+Next, recall that the diode only allows current to flow in one direction... we have to insert it into the circuit in the correct orientation!  LEDs like the one in your hardware kit have different length leads on them to indicate their correct orientation:
 
 ![LEDs](images/LED.jpg)
 
-So we want to connect the long lead to the red wire.  Here's my board (note I am using a red LED, not a green LED... I'm traveling and that is all I have with me...).  It doesn't matter which two vertical columns you use for this, provided they are empty to start with (not a column with an Arduino Nano pin in it):
+So we want to connect the long lead to the red wire.  Here's my board (note I am using a red LED, not a green LED... I am traveling right now and that is all I have with me... yes... I travel with LEDs sometimes...).  It doesn't matter which two vertical columns you use for this, provided they are empty to start with (not a column with an Arduino Nano pin in it):
 
 ![Circuit Step 2](images/Circuit_Step_2.jpg)
 
@@ -41,13 +41,13 @@ $R = (3.3 - 2.0) / 0.015$
 
 $R = 87\Omega$
 
-Resistors do not come in all values, however.  Our kit doesn't have an 87 $\Omega$ resistor, so we'll use the next size up: 100 $\Omega$.  
+Our kit doesn't have an 87 $\Omega$ resistor, so we'll use the next size up: 100 $\Omega$.  
 
-When you look in the resistor kit, however, you won't find labels on them saying things like "100 $\Omega$"... instead you have to use a standard color chart to figure out what your resistor value is or, in our case, to figure out which color bands you are looking for.  Here's the standard color chart:
+Resistors do not have labels on them saying things like "100 $\Omega$"... instead you have to use a standard color chart to figure out what your resistor value is or, in our case, to figure out which color bands you are looking for.  Here's the standard color chart:
 
 ![Resistor Color Chart](images/Resistor_Chart.avif)
 
-We're looking for 100 $\Omega$ so we're looking for the color pattern brown-black-brown for "1" "0" x "10" = 100.  
+We're looking for 100 $\Omega$ so we're looking for the color pattern brown-black-brown for "1" "0" x "10" = 100.  The last band, which will be "gold" in our kit, means the actual value is allowed to be 100 $\Omega$ +/- 5%, so the actual value will be somewhere between 95 \$Omega$ and 105 $\Omega$.  This doesn't matter for our purposes.
 
 Find a 100 $\Omega$ resistor and connect it between the "-" lead of the LED and the "0V" pin on the Arduino Nano (using the black wire) to complete the circuit:
 
