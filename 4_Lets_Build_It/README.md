@@ -47,7 +47,7 @@ Resistors do not have labels on them saying things like "100 $\Omega$"... instea
 
 ![Resistor Color Chart](images/Resistor_Chart.avif)
 
-We're looking for 100 $\Omega$ so we're looking for the color pattern brown-black-brown for "1" "0" x "10" = 100.  The last band, which will be "gold" in our kit, means the actual value is allowed to be 100 $\Omega$ +/- 5%, so the actual value will be somewhere between 95 *\Omega$ and 105 $\Omega$.  This doesn't matter for our purposes.
+We're looking for 100 $\Omega$ so we're looking for the color pattern brown-black-brown for "1" "0" x "10" = 100.  The last band, which will be "gold" in our kit, means the actual value is allowed to be 100 $\Omega$ +/- 5%, so the actual value will be somewhere between 95 $\Omega$ and 105 $\Omega$.  This doesn't matter for our purposes.
 
 Find a 100 $\Omega$ resistor and connect it between the "-" lead of the LED and the "0V" pin on the Arduino Nano (using the black wire) to complete the circuit:
 
