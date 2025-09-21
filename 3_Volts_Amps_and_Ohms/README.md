@@ -52,6 +52,8 @@ Design challenge:
 
 Determine which resistor value to use to restrict the flow of current through the diode to 15 $mA$ (0.015 A).
 
+When you are ready, [compare your answer to mine](solution.md)
+
 
 
 
