@@ -92,6 +92,63 @@ My output, above, is telling me that the size of my program's executable code - 
 If your output does not resemble mine check that the code in your code editor is *identical* to the code in the "Create an Arduino code project" section above and try again.  If this still does not work do not worry, we will fix it when we meet.
 </details>
 
+<details>
+  <summary>ADDITIONAL STEP FOR MAC USERS (ONLY): Manual Device Driver Installation (Optional)</summary>
+
+<br>
+
+Mac users with "Apple Silicon" (most recent MacBooks) need to manually install driver software to work with the hardware in this Thursday's seminar. 
+
+
+Installing the driver requires a few steps; it is easy to make a mistake and get lost in the process.  Driver installation is *optional* - you can always work with someone who has a Windows based laptop if you do not wish to install the drivers on your computer / have problems installing the drivers.  You can also ask for help from KUA's Information Technology folks (they are aware of the need to manually install drivers on OSX laptops and have offered to help).
+
+Start by downloading the driver zip archive from the vendor's website:
+
+https://www.wch-ic.com/search?q=CH340&t=downloads
+
+Scroll down to the archive for macOS and click on the file link (CH34XSER_MAC.ZIP) to download it:
+
+![wch driver download](images/Driver_1.jpg)
+
+When the file downloads, open the downloaded zip archive and copy the application inside of it into your /Applications folder.  OSX System Security requires that you run the downloaded program from inside the Applications folder because it adds an extension to the system (to work with the Arduino Nano board over the USB interface).  
+
+I did this in two steps.  First I copied the application to the desktop by dragging it from the archive folder:
+
+![Drag to Desktop](images/Driver_2.jpg)
+
+Then I moved it from the desktop to the Applications folder by dragging it from the desktop:
+
+![Drag to Applications](images/Driver_3.jpg)
+
+Next open the Applications folder and *right-click* on the file to open the context menu, then click on "Open."  This is (reportedly) necessary to guarantee the installer opens the Security Extensions dialog box in a future step:
+
+![Open Driver](images/Driver_4.jpg)
+
+You will be prompted to confirm you want to install a program that was downloaded from the Internet.  Click "Open":
+
+![Confirm](images/Driver_5.jpg)
+
+When the installation dialog box appears, click on the "Install FTDI USB Serial Dext VCP" button:
+
+![Install](images/Driver_6.jpg)
+
+***The next step is the one I always make a mistake on!!!***
+
+When the following prompt appears, do not accept the default action of "OK"... instead click on the button to "Open System Settings":
+
+![System Settings](images/Driver_7.jpg)
+
+When the following dialog box appears, slide the switch to the right of "CH34xVCPDriver" from the left to the right (you may need to enter your password to do this):
+
+![Enable Driver](images/Driver_8.jpg)
+
+After you close the System Settings dialog box the Driver Installation utility should report "Succeeded":
+
+![Success](images/Driver_9.jpg)
+
+If you have any problems with the above process I recommend uninstalling the driver by dragging the installer tool from the /Applications folder to the trash.  This will un-install any system extensions as well.  Then start over by dragging the installation application from the zip archive to the /Applications folder again.  You can also reach out to KUA Information Technology for help.
+</details>
+
 <br>
 
 When we meet, please bring your laptop (*fully charged*) so you can upload and run this sketch on your own hardware (which I will bring) as a starting point for additional hardware experiments!
