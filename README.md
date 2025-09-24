@@ -112,21 +112,15 @@ Scroll down to the archive for macOS and click on the file link (CH34XSER_MAC.ZI
 
 When the file downloads, open the downloaded zip archive and copy the application inside of it into your /Applications folder.  OSX System Security requires that you run the downloaded program from inside the Applications folder because it adds an extension to the system (to work with the Arduino Nano board over the USB interface).  
 
-I did this in two steps.  First I copied the application to the desktop by dragging it from the archive folder:
-
-![Drag to Desktop](images/Driver_2.jpg)
-
-Then I moved it from the desktop to the Applications folder by dragging it from the desktop:
-
-![Drag to Applications](images/Driver_3.jpg)
+![Driver Install](images/Driver_Fix.jpg)
 
 Next open the Applications folder and *right-click* on the file to open the context menu, then click on "Open."  This is (reportedly) necessary to guarantee the installer opens the Security Extensions dialog box in a future step:
 
-![Open Driver](images/Driver_4.jpg)
+![Open Driver](images/Driver_fix2.jpg)
 
-You will be prompted to confirm you want to install a program that was downloaded from the Internet.  Click "Open":
+You will be prompted to confirm you want to install the driver.  Click "install":
 
-![Confirm](images/Driver_5.jpg)
+![Confirm](images/Driver_fix3.jpg)
 
 When the installation dialog box appears, click on the "Install FTDI USB Serial Dext VCP" button:
 
