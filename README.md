@@ -122,9 +122,7 @@ You will be prompted to confirm you want to install the driver.  Click "install"
 
 ![Confirm](images/Driver_fix3.jpg)
 
-When the installation dialog box appears, click on the "Install FTDI USB Serial Dext VCP" button:
 
-![Install](images/Driver_6.jpg)
 
 ***The next step is the one I always make a mistake on!!!***
 
