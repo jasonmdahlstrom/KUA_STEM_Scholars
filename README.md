@@ -130,15 +130,15 @@ When the installation dialog box appears, click on the "Install FTDI USB Serial 
 
 When the following prompt appears, do not accept the default action of "OK"... instead click on the button to "Open System Settings":
 
-![System Settings](images/Driver_7.jpg)
+![System Settings](images/Driver_fix4.jpg)
 
 When the following dialog box appears, slide the switch to the right of "CH34xVCPDriver" from the left to the right (you may need to enter your password to do this):
 
-![Enable Driver](images/Driver_8.jpg)
+![Enable Driver](images/Driver_fix5.jpg)
 
-After you close the System Settings dialog box the Driver Installation utility should report "Succeeded":
+After you close the System Settings dialog box the Driver Installation utility should report "Success":
 
-![Success](images/Driver_9.jpg)
+![Success](images/Driver_fix6.jpg)
 
 If you have any problems with the above process I recommend uninstalling the driver by dragging the installer tool from the /Applications folder to the trash.  This will un-install any system extensions as well.  Then start over by dragging the installation application from the zip archive to the /Applications folder again.  You can also reach out to KUA Information Technology for help.
 </details>

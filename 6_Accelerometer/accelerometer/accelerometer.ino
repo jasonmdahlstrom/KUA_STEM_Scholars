@@ -1,58 +1,44 @@
-// Read acceleration data from an LIS3DH, use to control a servo position
+#include <Servo.h>
 
-#include <Wire.h>
-#include <SPI.h>
-#include <Adafruit_LIS3DH.h>
-#include <Adafruit_Sensor.h>
+// Create five servo objects
+Servo servo1;
+Servo servo2;
+Servo servo3;
+Servo servo4;
+Servo servo5;
 
-// Used for software SPI
-#define LIS3DH_CLK 13
-#define LIS3DH_MISO 12
-#define LIS3DH_MOSI 11
-// Used for hardware & software SPI
-#define LIS3DH_CS 10
-
-// Use hardware SPI communications interface
-Adafruit_LIS3DH lis = Adafruit_LIS3DH(LIS3DH_CS);
-
-void setup(void) {
-  // Configure the serial terminal for 115200 baud
-  Serial.begin(115200);
-  // will pause Zero, Leonardo, etc until serial console opens
-  while (!Serial) delay(10);     
-
-  // Check if an LIS3DH is detected
-  if (! lis.begin(0x18)) {   
-    Serial.println("Couldnt start - check your wiring!!!");
-    while (1) yield();
-  }
-  Serial.println("LIS3DH found!");
-
-  // Sense from +/- 2 Earth's Gravities / maximum sensitivity
-  lis.setRange(LIS3DH_RANGE_2_G);    
-  // Sample acceleration 50 times per second     
-  lis.setDataRate(LIS3DH_DATARATE_50_HZ);
+void setup() {
+  // Attach each servo object to a digital pin
+  // You can choose any available digital pins, but avoid pins 0 and 1 (Serial communication)
+  servo1.attach(8); // Servo 1 connected to digital pin 8
+  servo2.attach(9); // Servo 2 connected to digital pin 9
+  servo3.attach(10); // Servo 3 connected to digital pin 10
+  servo4.attach(11); // Servo 4 connected to digital pin 11
+  servo5.attach(12); // Servo 5 connected to digital pin 12
 }
 
 void loop() {
-  lis.read();      // get X Y and Z data at once
-  // Then print out the raw data
-  Serial.print("X:  "); Serial.print(lis.x);
-  Serial.print("  \tY:  "); Serial.print(lis.y);
-  Serial.print("  \tZ:  "); Serial.print(lis.z);
+  // Move all servos to position 0 degrees
+  servo1.write(60);
+  servo2.write(60);
+  servo3.write(60);
+  servo4.write(60);
+  servo5.write(60);
+  delay(2000); // Wait for 2 seconds
 
-  /* Or....get a new sensor event, normalized */
-  sensors_event_t event;
-  lis.getEvent(&event);
+  // Move all servos to position 90 degrees
+  servo1.write(90);
+  servo2.write(90);
+  servo3.write(90);
+  servo4.write(90);
+  servo5.write(90);
+  delay(2000); // Wait for 2 seconds
 
-  /* Display the results (acceleration is measured in m/s^2) */
-  Serial.print("\t\tX: "); Serial.print(event.acceleration.x);
-  Serial.print(" \tY: "); Serial.print(event.acceleration.y);
-  Serial.print(" \tZ: "); Serial.print(event.acceleration.z);
-  Serial.println(" m/s^2 ");
-
-  Serial.println();
-
-  // Wait 20 ms / update rate is 50 Hz
-  delay(20);
+  // Move all servos to position 180 degrees
+  servo1.write(120);
+  servo2.write(120);
+  servo3.write(120);
+  servo4.write(120);
+  servo5.write(120);
+  delay(2000); // Wait for 2 seconds
 }
